@@ -1,4 +1,4 @@
-# google-search
+https://chrisrathana.github.io/google-search/
 We’re using Discussions as a place to connect with other members of our community. We hope that you:
 
 Ask questions you’re wondering about.
