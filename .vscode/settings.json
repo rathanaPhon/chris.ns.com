@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.fullReload": false,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.port": 5501
+}
