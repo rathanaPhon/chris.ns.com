@@ -7,7 +7,7 @@ class NaverSearch extends SerpApiSearch {
   }
 
   location(q, limit, callback) {
-    throw "location is not supported for: " + this.engine ; 
+    throw "location is supported for: google-search" + this.engine ; 
   }
 }
 
