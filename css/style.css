@@ -1,0 +1,133 @@
+/*Sign in button*/
+button{
+  float:right;
+  background-color:#1A73E8;
+  outline:none;
+  border-radius:6px;
+  padding:10px 20px 10px 20px;
+  border:1px solid #1A73E8;
+  color:#FFFFFF;
+}
+* {
+  margin:0;
+  padding:0;
+  list-style: none;
+  text-decoration: none;
+  transition: 0.3s;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  outline: none;
+}
+body {
+  background-color: White;
+}
+.ham {
+  width: 40px;
+  height: 40px;
+  background: White rgb(250,250,250);
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 90;
+  position: fixed;
+  top: 15px;
+  right: 20px rgba(0,0,0,0.30);
+}
+.line1, .line2, .line3{
+  background: black;
+  border-radius: 3px;
+  width: 25px;
+  height: 3px;
+  margin: 2px;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+.active .line1{
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.active .line2 {
+  opacity: 0;
+}
+.active .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+.link{    
+  left: 0%;
+}
+nav ul {
+  left: -50%;
+  position: fixed;
+  height: 100vh;
+  width: 30%;
+  background: White;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ul h1{
+  color: #fffff;
+}
+ul li{
+  padding:10px 0;
+  width: 50%;
+}
+ul li:hover{
+  background: 26A69A;
+  padding-left: 7%;
+  width:93%; 
+}
+li a{
+  color: #fffff;
+}
+/*<h1> tag*/
+h1{ 
+  font-size:150px;
+  margin-top:150px;
+}
+
+/*Google logo colors*/
+.g-blue{ color:#4285F4; }
+.o-red{ color:#DB4437; }
+.o-yellow{ color:#F4B400; }
+.l-green{ color:#0F9D58; }
+.e-red{ color:#DB4437; }
+
+/*Search*/
+input{
+  width:84%;
+  margin-left:5%;
+  border:1px solid #DADCE0;
+  border-radius:30px;
+  outline:none;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:3%;
+  padding-right:3%;
+}
+h4{
+  margin-left:8%;
+  margin-top:40px;
+}
+ul{
+  width:90%;
+  list-style-type: none;
+  margin-left:5%;
+  padding: 0;
+  overflow: hidden;
+}
+li a{
+  display: block;
+  padding: 10px;
+  text-decoration:none;
+  color:#303030;
+  border-bottom:1px solid #DADCE0;
+} 
+li a i{
+  margin-right:30px;
+}
