@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>http://www.nbsdc.cn/</title>
+<title>http://www.bannie.com/</title>
  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
  <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -61,9 +61,7 @@ function hamMenuClick(){
 var div = document.getElementsByTagName("div")[0]
 div.innerHTML
 txt = div.innerHTML;
-
 var textToSearch = document.getElementsByTagName("input")[0]
-
 function highlightWords( line, word )
 {
   var regex = new RegExp( '(' + word + ')', 'gi' );
@@ -78,9 +76,7 @@ function search()
   }  
   div.innerHTML = txt
   var res = highlightWords(div.innerHTML,textToSearch.value.toLowerCase())
-
   div.innerHTML = res
-
   if(div.innerHTML == txt){
     textToSearch.style.border="1px solid rgb(250,53,49)"
   }else{
