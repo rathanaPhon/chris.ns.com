@@ -63,7 +63,7 @@ nav ul {
   left: -50%;
   position: fixed;
   height: 100vh;
-  width: 30%;
+  width: 40%;
   background: White;
   display: flex;
   flex-direction: column;
@@ -90,14 +90,13 @@ h1{
   font-size:150px;
   margin-top:150px;
 }
-
 /*Google logo colors*/
 .g-blue{ color:#4285F4; }
 .o-red{ color:#DB4437; }
 .o-yellow{ color:#F4B400; }
 .l-green{ color:#0F9D58; }
 .e-red{ color:#DB4437; }
-
+}
 /*Search*/
 input{
   width:84%;
