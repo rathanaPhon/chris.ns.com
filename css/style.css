@@ -75,12 +75,12 @@ ul h1{
 }
 ul li{
   padding:10px 0;
-  width: 50%;
+  width: 30%;
 }
 ul li:hover{
   background: 26A69A;
   padding-left: 7%;
-  width:93%; 
+  width:90%; 
 }
 li a{
   color: #fffff;
