@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta name="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/6.0.6/qrcode.min.js'
+   integrity="sha384-G.JzZqFGwb1QTTN6wy59ffF1BuG.JPLSa9DkKMp0Dg1MDm4jYMj70gZWKYbI706tWS"/>
+        <title>www.bannie.com</title
+  <link rel="stylesheet" href="/css/style.css"> 
+  <style type="text/css">
+* {
+margin:0;
+padding:0;
+list-style: none;
+text-decoration: none;
+transition: 0.3s;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+user-select: none;
+outline: none;
+}
+body {
+background-color: White;
+}
+.ham {
+width: 40px;
+height: 40px;
+background: gray rgb;
+border-radius: 7px;
+display: flex;
+flex-direction: column;
+align-items: center;
+  justify-content: center;
+z-index: 90;
+position: fixed;
+top: 15px;
+right: 20px rgba(0,0,0,0.30);
+}
+.line1, .line2, .line3{
+background: black;
+border-radius: 3px;
+width: 25px;
+height: 3px;
+margin: 2px;
+}
+.active .line1{
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.active .line2 {
+  opacity: 0;
+}
+.active .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
+.link{    
+  left: 0%;
+}
+nav ul {
+  left: -50%;
+ position: fixed;
+ height: 100vh;
+ width: 30%;
+ background: White;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+ul h1{
+color: #fffff;
+}
+ul li{
+text-align:center;
+ padding:15px 0;
+width: 100%;
+}
+ul li:hover{
+background: 26A69A;
+padding-left: 7%;
+width:93%; 
+}
+li a{
+color: #fffff;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+}    
+html.body{
+font-family: sans-serif;
+margin: 0%;
+background: White;
+}
+h3{
+text-align: center;
+font-size: 30px;
+margin: 0;
+padding-top: 10px;
+}
+a{
+text-decoration: none;
+}
+.gallery{
+display: flex;
+flex-wrap: wгар;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+}
+.content{
+width: 20%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius: 20px;
+cursor: pointer;
+padding-top: 10px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+0 10px 10px rgba(0,0,0,0.22);
+transition: -45s;
+background: #f2f2f2;
+}
+.content:hover{
+box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+0 3px 6px rgba(0,0,0,0.23);
+transform: translate(0px, -8px);
+}
+.img{         
+width: 200%;
+height: 200%; 
+text-align: center;
+margin: 0 auto;
+display: block;
+}
+.p{
+text-align: center;
+color: #fffff;
+padding-top: 0 08;
+}
+h6{
+font-size:26px;
+text-align: center;
+color: #40e1ffec;
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 0%;
+}
+li{
+padding-top: 5px;
+}
+.fa{
+font-size: 26px;
+transition: .4s;
+margin:5%;
+}
+.checked{
+color: #ffb355;
+}
+.fa:hover{
+transform: scale(1.3);
+transition: .65s;
+}
+.button{
+text-align: center;
+font-size: 24px;
+color: #ffc82a;
+width: 100%;
+padding-top: 15px;
+border-radius: 0;
+online:none;
+corsor: pointer;
+margin-top: 5px;
+background: #fffff;
+}
+  </style>
+</head>
+<body>
+    <hr>
+    <div id="main">
+      <div id="header" class="basic" style="margin-bottom:40px">
+         <div class="site">
+      <div>
+    </header>
+  <nav>
+    <ul id="ul">
+      <h1>MENU</h1><br>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="Page.html">PAGES</a></li>
+      <li><a href="shop.html">Shop</a></li>
+    </ul>
+  </nav>
+  
+    <div id="hamMenu" class="ham" onclick="hamMenuClick()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <br>
+    </div>
+      <div class="company">
+    <sectio>
+ </div>
+   <div class="tgreviews__form-row">
+  </header>
+<body>       
+  <div>
+      <div class="footer-item">
+      </div> 
+        <div class="container-fluid">
+          <div class="col-12 col-sm-3">   
+      </div> 
+    </section>
+  <div>
+     </nav> 
+      <div class="search.wepper">
+  </div>
+ <div class="grid-contaner">
+  <div class="gallery">    
+  <div class="item:img">
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+     <div>
+    </div> 
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+    </div>   
+           
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+    </div>     
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>
+     
+         
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+        
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+          
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+     <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+       <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+    <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+     
+     <div class="content">
+      <img src="img/shoes.png">
+      <h3>Model</h3>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    $100.00  
+     <button class="submit">Add To Cart</button> 
+      <div>
+    </div>
+  <ul>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star checked"></i></il>
+    <li><i class="fa fa-star"></i>
+    <li><i class="fa fa-star"></i>
+  </ul>
+     </div>  
+<script type="text/javascript">
+    function hamMenuClick(){
+    document.getElementById("hamMenu").classList.toggle("active");
+    document.getElementById("ul").classList.toggle("link");
+   }
+   </script>     
+</body>
+</html>
+ 
+ 
+ 
+                                     
+
+       
