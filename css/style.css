@@ -113,20 +113,20 @@ h4{
   margin-left:8%;
   margin-top:40px;
 }
-ul{
+.ul{
   width:90%;
   list-style-type: none;
   margin-left:5%;
   padding: 0;
   overflow: hidden;
 }
-li a{
+.li a{
   display: block;
   padding: 10px;
   text-decoration:none;
   color:#303030;
   border-bottom:1px solid #DADCE0;
 } 
-li a i{
+.li a i{
   margin-right:30px;
 }
