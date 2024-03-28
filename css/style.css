@@ -75,7 +75,7 @@ ul h1{
 }
 ul li{
   padding:10px 0;
-  width: 30%;
+  width: 20%;
 }
 ul li:hover{
   background: 26A69A;
@@ -116,8 +116,8 @@ h4{
 .ul{
   width:90%;
   list-style-type: none;
-  margin-left:5%;
-  padding: 0;
+  margin-left:2%;
+  padding: 0%;
   overflow: hidden;
 }
 .li a{
@@ -128,5 +128,5 @@ h4{
   border-bottom:1px solid #DADCE0;
 } 
 .li a i{
-  margin-right:30px;
+  margin-right:20px;
 }
