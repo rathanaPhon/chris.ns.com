@@ -1,5 +1,5 @@
 /*Sign in button*/
-button{
+.sign in> button{
   float:right;
   background-color:#1A73E8;
   outline:none;
