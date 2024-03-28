@@ -188,11 +188,11 @@ h1{
   font-size:150px;
   margin-top:150px;
 }
-/*bannie logo colors*/
-.b-blue{ color:#4285F4; }
-.a-red{ color:#DB4437; }
-.n-yellow{ color:#F4B400; }
-.i-green{ color:#0F9D58; }
+/*google logo colors*/
+.g-blue{ color:#4285F4; }
+.o-red{ color:#DB4437; }
+.o-yellow{ color:#F4B400; }
+.l-green{ color:#0F9D58; }
 .e-red{ color:#DB4437; }
 
 /*Search*/
