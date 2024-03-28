@@ -163,7 +163,7 @@ transition: .65s;
 text-align: center;
 font-size: 24px;
 color: #ffc82a;
-width: 50%%;
+width: 50%;
 padding-top: 15px;
 border-radius: 0;
 online:none;
@@ -185,7 +185,6 @@ h1{
 .o-yellow{ color:#F4B400; }
 .l-green{ color:#0F9D58; }
 .e-red{ color:#DB4437; }
-
 /*Search*/
 input{
   width:84%;
