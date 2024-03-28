@@ -20,6 +20,7 @@ button{
   outline: none;
 }
 body {
+font-family: sans-serif;
 background-color: White;
 }
 .ham {
@@ -86,9 +87,8 @@ color: #fffff;
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 gap: 10px;
-}    
-html.body{
-font-family: sans-serif;
+}
+html {
 margin: 0%;
 background: White;
 }
@@ -145,7 +145,7 @@ font-size:26px;
 text-align: center;
 color: #40e1ffec;
 }
-.ul{
+ul{
 list-style: none;
 display: flex;
 justify-content: center;
@@ -157,7 +157,7 @@ padding-top: 5px;
 }
 .fa{
 font-size: 26px;
-transition: .4s;
+transition: -4s;
 margin:5%;
 }
 .checked{
@@ -211,7 +211,7 @@ h4{
   margin-left:8%;
   margin-top:40px;
 }
-.ul{
+ul{
   width:90%;
   list-style-type: none;
   margin-left:2%;
