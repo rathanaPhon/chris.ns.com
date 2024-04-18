@@ -1,0 +1,53 @@
+{
+    "project.name": "website.com.devcontainers",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",  // Any generic, debian-based image.
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "version": "latest",
+            "moby": true
+        }
+    }
+},
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "origin_name": "control",
+  "startDate": "2024-17-21T19:00:00-01:42",
+  "endDate": "2024-17-21T23:00-01:42",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+  "location": {
+  "@type": "Location",
+  "url": "https://chris.ns.website.com/mine.js",
+ 
+  "name": "website.com",
+  "author": "Evan You <rathanaphon035@gmail.com>",
+  "description": "Simple, Fast & Composable MVVM for building interactive interfaces",
+  "filename": "website.com",
+  "sri": null,
+  "version": "3.2.37",
+  "repository": {
+  "type": "dns",
+  "url": "https://chris.ns.website.com/mine.js",
+  "autoupdate": {
+    "source": "npm",
+    "target": "chris.ns.webiste.com",
+    "filepag": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.+(js|pag)"
+        ]
+      }
+    ]
+  }
+}
+
+
+  
+  
+
+
+      
